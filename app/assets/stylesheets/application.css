@@ -1,0 +1,260 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html {
+
+ }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* landing page */
+
+.login-signup {
+  margin: auto;
+  max-width: 200px;
+  margin-top: 5em;
+  padding: 1em 8em;
+  border-radius: 10px 10px 0 0;
+  background-color: lightsteelblue;
+}
+
+.login-signup > a > h1 {
+  font-size: 36px;
+}
+.login-form-container {
+  margin: auto;
+  max-width: 200px;
+  padding: 0em 8em 3em 8em;
+  border-radius: 0px 0px 10px 10px;
+  background-color: lightsteelblue;
+}
+
+.login-form > label {
+  display: block;
+}
+
+.login-input {
+  padding: .5em;
+  margin: 1em 0em;
+  border-radius: 5px;
+}
+.session-submit {
+  padding: .5em;
+  margin: .5em;
+  border-radius: 5px;
+}
+
+
+/* recipe index */
+ .recipe-small-img {
+   max-width: 250px;
+   max-height: 250px;
+ }
+
+.recipe-index-item >a > h4 {
+  text-decoration: none;
+}
+
+.recipe-index-item {
+  min-width: 400px;
+}
+
+.recipe-detail > img{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.recipe-form > input {
+  display: block;
+  margin: .5em;
+  padding: .5em;
+}
+
+.recipe-form > button {
+  margin: .5em;
+  padding: .5em;
+}
+
+.deleteRecipe {
+  margin: .5em;
+  padding: .5em;
+}
+.recipe-form > label {
+  margin: .5em;
+  padding: .5em;
+}
+
+.ingredient-delete-button, .direction-delete-button {
+  margin-left: 1em;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid red;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.recipe-detail {
+  margin: auto;
+  max-width: 700px;
+  /* margin-top: 8em; */
+}
+
+.recipe-detail > h1 {
+  font-size: 34px;
+  margin: 0;
+}
+
+.direction-header, .ingredient-header {
+  list-style-type: none;
+}
+
+/* comment */
+.comment-text-area {
+  width: 300px;
+  height: 80px;
+}
+
+.comment-button-form, .comment-text-area {
+  display: block;
+  margin: 1em 0;
+  padding: .5em;
+}
+
+
+.comments-ul {
+  padding-left: 0;
+}
+.comments-ul > li {
+  list-style-type: none;
+}
+
+.comments-ul > li > p {
+  font-weight: 700;
+}
+.comments-ul > li > h5 {
+  color: gray;
+  font-weight: 700;
+}
+
+
+/* tags */
+.recipe-tags {
+  padding-left: 0;
+}
+.recipe-tags >li {
+  display: inline-block;
+  margin: .5em;
+  background-color: gray;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight:  700;
+}
+
+/* header group */
+.header-group {
+  float:right;
+  display:block;
+  width:100%;
+  margin-bottom: 3em;
+  padding: 5px;
+  background-color: lightsteelblue;
+}
+
+.header-button, .header-name, .header-link {
+  display: inline-block;
+  margin: .5em;
+  padding-left: .1em;
+  padding-right: .1em;
+}
+
+.header-left {
+  display: inline-block;
+  float:left;
+  text-decoration: none;
+  /* color:white; */
+  /* padding: 0 5px; */
+}
+
+.header-left > h2 {
+  margin: 12px;
+  margin-left: 20px;
+}
+.header-right {
+  float:right;
+}
+.header-right > a {
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.header-right > a:hover {
+  color:gray;
+
+}
+
+
+hgroup {
+  margin: 0;
+}
+
+/* index  */
+.recipe-list{
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: 100px;
+
+}
+
+.recipe-list > li > a {
+  /* text-decoration: none; */
+}
+
+.SearchBar {
+  margin: auto;
+  max-width: 280px;
+  margin-left: 40px;
+  margin-left: 140px;
+}
+
+.SearchBar-fields > input {
+  padding: .5em;
+  margin: .5em;
+  border-radius: 5px;
+  display: inline-block;
+
+
+}
+
+.SearchBar-submit {
+  padding: .5em;
+  margin: .5em;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+
+.recipe-list-search {
+  list-style-type: none;
+    padding-left: 8px;
+}
+/* </style> */
