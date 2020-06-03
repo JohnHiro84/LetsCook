@@ -28,7 +28,9 @@
   In the Recipe detail component, I had originally got that component to work by making 3 or 4 different action creator fetches 
   to fetch the Recipe data, another fetch for directions, another for ingredients, comments.. then I realized that I was making all
   these extra calls to the database when I could just use jBuilder to fetch all the associated directions, ingredients, comments, likes in a single fetch for
-  a single recipe. I had all these extra reducers that weren't needed and was able to speed up my application a little bit by reducing the number of action creators
+  a single recipe. 
+
+  I had all these extra reducers that weren't needed and was able to speed up my application a little bit by reducing the number of action creators
   to the database, to just a single action creator. Also an issue I encountered was on submitting a new recipe, the recipe url would go to the new api/recipes/:recipeId
   page, yet it wouldn't render. Once I reduced the number of action creators as well as transferring that recipe data into the Recipe Detail Component's own state, it would
   immediately render the new recipe title, description etc.
