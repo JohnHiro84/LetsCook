@@ -4,8 +4,8 @@
 
 ![sample image](LetsCookMain.png)
 ![sample image](lcsignup.png)
-![sample image](directions.png)
 ![sample image](another.png)
+![sample image](directions.png)
 
 [Video Demonstration](https://m.youtube.com/watch?v=OS68yoqpwU4)
 
