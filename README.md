@@ -58,8 +58,8 @@
 
 ## Future Directions for the Project
 
-  - Ability to filter by recipe popularity, seasonal recipes.
+  - Ability to filter by recipe popularity and recipes that are currently in season.
 
-  - Have a featured recipe's section  based on popularity and based on what recipes the particular user has many page views for.
+  - Have a featured recipe's section based on popularity and based on what recipes the particular user has many page views for.
 
   - Ability to favorite a recipe and pull up a tab with all thier favorited recipes which they can add or remove favorited recipes.
