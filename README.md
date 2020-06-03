@@ -1,5 +1,11 @@
 # Let's Cook
 
+
+directions.png	
+lcsignup.png	
+LetsCookMain.png	
+another.png
+
 A recipe sharing application.
 
 ## What the app does
