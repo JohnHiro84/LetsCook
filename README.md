@@ -35,13 +35,14 @@ A recipe sharing application.
   and available and was able to ensure that the logged in user could edit thier own recipes. I made the respective ingredients, directions and general recipe information
   render the extra forms to edit available if the username was the same as the recipe's author and if they were not the same the forms didn't show up.
 
-
+```
   componentDidMount() {
 
     this.props.requestSingleRecipe(this.props.match.params.recipeId)
     .then(res => this.setState({ 'recipe': res }));
-
   }
+
+```
 
   The code is from the Recipe Detail Component and simplifed the number of calls in ComponentDidMount and ComponentDidUpdate.
 
