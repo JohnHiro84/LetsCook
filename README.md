@@ -1,10 +1,14 @@
 # Let's Cook
 
 
-directions.png	
-lcsignup.png	
-LetsCookMain.png	
-another.png
+
+![sample image](LetsCookMain.png)
+![sample image](lcsignup.png)
+![sample image](directions.png)
+![sample image](another.png)
+
+[Video Demonstration](https://m.youtube.com/watch?v=OS68yoqpwU4)
+
 
 A recipe sharing application.
 
