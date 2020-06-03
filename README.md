@@ -2,7 +2,7 @@
 
 A recipe sharing application.
 
-## What the app is and does
+## What the app does
 
   Let's Cook! is a recipe sharing application where users can upload recipes for others to view.
   Users can edit, delete, add ingredients, directions, comments and likes to a recipe.
@@ -16,7 +16,7 @@ A recipe sharing application.
 
 
 
-## Reduced the Number of action creators for Recipe Detail Component
+## Reduced the Number of Action Creators for Recipe Detail Component
   
   In the Recipe detail component, I had originally got that component to work by making 3 or 4 different action creator fetches 
   to fetch the Recipe data, another fetch for directions, another for ingredients, comments.. then I realized that I was making all
@@ -26,7 +26,7 @@ A recipe sharing application.
   page, yet it wouldn't render. Once I reduced the number of action creators as well as transferring that recipe data into the Recipe Detail Component's own state, it would
   immediately render the new recipe title, description etc.
 
-## Restricting Access to edit a Recipe
+## Restricting Access to Edit a Recipe
 
   I had wanted to make the Recipes have the ability to be editted if the user logged in was the user that created that particular recipe. Originally I was pulling
   the userId and the username from the the session piece of state. Yet, in this manner the user information would only show up immediately after logging into the 
