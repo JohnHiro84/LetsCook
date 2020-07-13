@@ -18,7 +18,7 @@
   navigation link. Users can also create a new account to login and logout.
 
   Let's Eat! is a web application made with Ruby, Ruby on Rails, React and Redux. Jbuilder is also used to 
-  customize the JSON recipe response. The backend is made with Ruby and Ruby on Rails. The front end is made
+  customize the JSON recipe response. The backend is made with Ruby on Rails. The front end is made
   with React and Redux.
 
 
