@@ -25,7 +25,7 @@
 
 ## Reduced the Number of Action Creators for Recipe Detail Component
   
-  In the Recipe detail component, I had originally got that component to work by making 3 or 4 different action creator fetches 
+  I had originally got the Recipe detail component to work by making 3 or 4 different action creator fetches 
   to fetch the Recipe data, another fetch for directions, another for ingredients, comments.. then I realized that I was making all
   these extra calls to the database when I could just use jBuilder to fetch all the associated directions, ingredients, comments, likes in a single fetch for
   a single recipe. 
