@@ -9,7 +9,7 @@
 
 [Video Demonstration](https://m.youtube.com/watch?v=OS68yoqpwU4)
 
-## What the app does
+## About the App
 
   Let's Cook! is a recipe sharing application where users can upload recipes for others to view.
   Users can edit, delete, add ingredients, directions, comments and likes to a recipe.
