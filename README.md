@@ -40,7 +40,7 @@
   I had wanted to make the Recipes have the ability to be editted if the user logged in was the user that created that particular recipe. Originally I was pulling
   the userId and the username from the the session piece of state. Yet, in this manner the user information would only show up immediately after logging into the 
   application and then subsequent refreshes of the page, the user information would disappear. This affected the ability for the page to be able to be editted even
-  if the user was logged in. Eventually I pulled the user information from the users piece of state and was able to continually have the user information be accurate
+  if the user was logged in. I eventually pulled the user information from the users piece of state and was able to continually have the user information be accurate
   and available and was able to ensure that the logged in user could edit thier own recipes. I made the respective ingredients, directions and general recipe information
   render the extra forms to edit available if the username was the same as the recipe's author and if they were not the same the forms didn't show up.
 
